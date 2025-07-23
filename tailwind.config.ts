@@ -19,8 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'montserrat': ['Montserrat', 'sans-serif'],
-				'sans': ['Open Sans', 'sans-serif'],
+				'wadik': ['Fredoka', 'sans-serif'],
+				'sans': ['Roboto', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

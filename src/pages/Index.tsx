@@ -10,7 +10,7 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-secondary"></div>
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-          <h1 className="font-montserrat text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+          <h1 className="font-wadik text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
             Гардеробные системы
             <br />
             <span className="text-white/90">премиум-класса</span>
@@ -38,7 +38,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-montserrat text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="font-wadik text-4xl font-bold text-gray-900 mb-4">
               Почему выбирают нас
             </h2>
             <p className="text-xl text-gray-600 font-sans">
@@ -52,7 +52,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Ruler" size={32} className="text-white" />
                 </div>
-                <h3 className="font-montserrat text-xl font-semibold mb-4">Индивидуальный дизайн</h3>
+                <h3 className="font-wadik text-xl font-semibold mb-4">Индивидуальный дизайн</h3>
                 <p className="text-gray-600 font-sans">Создаем проекты под ваши потребности и особенности пространства</p>
               </CardContent>
             </Card>
@@ -62,7 +62,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Award" size={32} className="text-white" />
                 </div>
-                <h3 className="font-montserrat text-xl font-semibold mb-4">Премиум материалы</h3>
+                <h3 className="font-wadik text-xl font-semibold mb-4">Премиум материалы</h3>
                 <p className="text-gray-600 font-sans">Используем только качественные материалы от ведущих европейских производителей</p>
               </CardContent>
             </Card>
@@ -72,7 +72,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Clock" size={32} className="text-white" />
                 </div>
-                <h3 className="font-montserrat text-xl font-semibold mb-4">Быстрая установка</h3>
+                <h3 className="font-wadik text-xl font-semibold mb-4">Быстрая установка</h3>
                 <p className="text-gray-600 font-sans">Монтаж гардеробной системы за 1-2 дня с гарантией качества</p>
               </CardContent>
             </Card>
@@ -84,7 +84,7 @@ const Index = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-montserrat text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="font-wadik text-4xl font-bold text-gray-900 mb-4">
               Наши работы
             </h2>
             <p className="text-xl text-gray-600 font-sans">
@@ -101,7 +101,7 @@ const Index = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               <div className="absolute bottom-6 left-6 text-white">
-                <h3 className="font-montserrat text-xl font-semibold mb-2">Минималистичная гардеробная</h3>
+                <h3 className="font-wadik text-xl font-semibold mb-2">Минималистичная гардеробная</h3>
                 <p className="text-white/90">Современное решение для городской квартиры</p>
               </div>
             </div>
@@ -114,7 +114,7 @@ const Index = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               <div className="absolute bottom-6 left-6 text-white">
-                <h3 className="font-montserrat text-xl font-semibold mb-2">Гардеробная премиум</h3>
+                <h3 className="font-wadik text-xl font-semibold mb-2">Гардеробная премиум</h3>
                 <p className="text-white/90">Роскошное пространство для хранения</p>
               </div>
             </div>
@@ -126,7 +126,7 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-montserrat text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="font-wadik text-4xl font-bold text-gray-900 mb-4">
               Отзывы клиентов
             </h2>
             <p className="text-xl text-gray-600 font-sans">
@@ -139,10 +139,10 @@ const Index = () => {
               <CardContent className="pt-0">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center">
-                    <span className="text-white font-montserrat font-semibold">АМ</span>
+                    <span className="text-white font-wadik font-semibold">АМ</span>
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-montserrat font-semibold">Анна Михайлова</h4>
+                    <h4 className="font-wadik font-semibold">Анна Михайлова</h4>
                     <div className="flex text-yellow-400">
                       {[...Array(5)].map((_, i) => (
                         <Icon key={i} name="Star" size={16} className="fill-current" />
@@ -161,10 +161,10 @@ const Index = () => {
               <CardContent className="pt-0">
                 <div className="flex items-center mb-6">
                   <div className="w-12 h-12 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center">
-                    <span className="text-white font-montserrat font-semibold">ДС</span>
+                    <span className="text-white font-wadik font-semibold">ДС</span>
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-montserrat font-semibold">Дмитрий Соколов</h4>
+                    <h4 className="font-wadik font-semibold">Дмитрий Соколов</h4>
                     <div className="flex text-yellow-400">
                       {[...Array(5)].map((_, i) => (
                         <Icon key={i} name="Star" size={16} className="fill-current" />
@@ -185,7 +185,7 @@ const Index = () => {
       {/* Contact & Order Section */}
       <section className="py-20 bg-gradient-to-r from-primary to-secondary">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
-          <h2 className="font-montserrat text-4xl font-bold mb-6">
+          <h2 className="font-wadik text-4xl font-bold mb-6">
             Готовы создать гардеробную мечты?
           </h2>
           <p className="text-xl mb-8 text-white/90 font-sans">
@@ -197,7 +197,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4">
                 <Icon name="Phone" size={24} className="text-white" />
               </div>
-              <h3 className="font-montserrat font-semibold mb-2">Телефон</h3>
+              <h3 className="font-wadik font-semibold mb-2">Телефон</h3>
               <p className="text-white/90">+7 (495) 123-45-67</p>
             </div>
             
@@ -205,7 +205,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4">
                 <Icon name="Mail" size={24} className="text-white" />
               </div>
-              <h3 className="font-montserrat font-semibold mb-2">Email</h3>
+              <h3 className="font-wadik font-semibold mb-2">Email</h3>
               <p className="text-white/90">info@wardrobe-premium.ru</p>
             </div>
             
@@ -213,7 +213,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4">
                 <Icon name="MapPin" size={24} className="text-white" />
               </div>
-              <h3 className="font-montserrat font-semibold mb-2">Адрес</h3>
+              <h3 className="font-wadik font-semibold mb-2">Адрес</h3>
               <p className="text-white/90">г. Москва, ул. Тверская, 1</p>
             </div>
           </div>
@@ -234,7 +234,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h3 className="font-montserrat text-2xl font-bold mb-4">Wardrobe Premium</h3>
+          <h3 className="font-wadik text-2xl font-bold mb-4">Wardrobe Premium</h3>
           <p className="text-gray-400 mb-6 font-sans">
             Создаем гардеробные системы премиум-класса с 2018 года
           </p>
